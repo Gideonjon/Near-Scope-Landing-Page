@@ -12,6 +12,17 @@ export const metadata: Metadata = {
   description:
     "Debug NEAR smart contracts with clarity. Inspect contracts, call view functions, and visualize async execution flows.",
   generator: "v0.app",
+  openGraph: {
+    title: "NearScope - NEAR Contract Inspector & Debugger",
+    description:
+      "Debug NEAR smart contracts with clarity. Inspect contracts, call view functions, and visualize async execution flows.",
+    image: "/icon.jpg",
+    type: "website",
+  },
+  twitter: {
+    card: "summary",
+    image: "/icon.jpg",
+  },
   icons: {
     icon: [
       {
