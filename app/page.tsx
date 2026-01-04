@@ -43,7 +43,7 @@ export default function Home() {
             <a href="https://play.google.com/store" target="_blank" rel="noopener noreferrer">
               <Button size="lg" className="gap-2">
                 <Download className="w-4 h-4" />
-                Download on Google Play
+                Download apk
               </Button>
             </a>
             <Button variant="outline" size="lg">
@@ -109,7 +109,17 @@ export default function Home() {
       {/* Footer */}
       <footer className="border-t border-border mt-20">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 py-8 text-center text-sm text-muted-foreground">
-          <p>© 2026 NearScope. Built for NEAR Protocol developers.</p>
+          <p>
+            © 2026 NearScope. Built by{" "}
+            <a
+              href="https://gideonjones.xyz"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-foreground transition-colors underline"
+            >
+              Gideon Jones
+            </a>
+          </p>
         </div>
       </footer>
     </div>
