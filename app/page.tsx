@@ -2,8 +2,9 @@
 
 import type React from "react"
 
-import { Download, Zap, Bug, Eye, Lock } from "lucide-react"
+import { Zap, Bug, Eye, Lock } from "lucide-react"
 import { Button } from "@/components/ui/button"
+import Link from "next/link"
 
 export default function Home() {
   return (
@@ -40,12 +41,12 @@ export default function Home() {
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center pt-4">
-            <a href="https://play.google.com/store" target="_blank" rel="noopener noreferrer">
+            <Link href="/app">
               <Button size="lg" className="gap-2">
-                <Download className="w-4 h-4" />
-                Download apk
+                <Zap className="w-4 h-4" />
+                Launch the app
               </Button>
-            </a>
+            </Link>
             <Button variant="outline" size="lg">
               Learn More
             </Button>
